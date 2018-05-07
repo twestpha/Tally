@@ -1,0 +1,10 @@
+# Goals
+- Downloads "Articles" from source sites, parsing out the content link, title, description, comment link
+    - modular parsing schemes so they can be added ad-hoc
+    - economic with bandwidth
+    - Also be economic with storage, we have to store a lot of these things
+    - how to parse old articles and keep records of our place in those old articles? Probably by date-stamping them
+- Puts those into a database on this machine
+    - don't do this step yourself
+    - use a premade database for this bit
+- Web page (local) accesses said database to build front page for you; marking when you've viewed those links and discarding them

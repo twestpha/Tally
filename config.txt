@@ -1,3 +1,12 @@
+# Config File for Tally
+# Syntax:
+#   - every entry is denoted with "value = key", with no quotations or delimiters
+#   - comments begin with a pound (#) and are ignored
+
+# Program Settings
+delaytime = 3
+
+# Server Settings
 initpath = .\pgsql\bin\initdb.exe
 initargs = -D .\data
 
@@ -5,5 +14,3 @@ serverpath = .\pgsql\bin\postgres.exe
 serverargs = -D .\data
 
 createdbpath = .\pgsql\bin\createdb.exe
-
-timeout = 10
