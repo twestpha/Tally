@@ -1,0 +1,9 @@
+initpath = .\pgsql\bin\initdb.exe
+initargs = -D .\data
+
+serverpath = .\pgsql\bin\postgres.exe
+serverargs = -D .\data
+
+createdbpath = .\pgsql\bin\createdb.exe
+
+timeout = 10
