@@ -1,8 +1,8 @@
 def PrintInfo(message):
-    print("[T_INFO] " + message)
+    print("[INFO] " + message)
 
 def PrintWarning(message):
-    print("[T_WARNING] " + message)
+    print("[WARNING] " + message)
 
 def PrintError(message):
-    print("[T_ERROR] " + message)
+    print("[ERROR] " + message)
